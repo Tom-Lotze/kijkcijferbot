@@ -3,18 +3,16 @@
 # @Author: Tom Lotze
 # @Date:   2020-02-18 17:55:02
 # @Last Modified by:   Tom Lotze
-# @Last Modified time: 2020-02-18 18:02:10
+# @Last Modified time: 2020-02-18 19:20:22
 
 
 
 # importing tweepy module 
 import tweepy 
+from get_keys import *
   
 # personal details 
-consumer_key ="kt2IB6p4Q04CLoxKRA3Ypjxx1"
-consumer_secret ="uDktAWA4MNkdLBxFzsxiY4fide8lQRG1FExPqFOehA34JTPXwG"
-access_token ="1229809093730275335-pIYQQgyavikJedzdTdH4UUQXQ4CoCk"
-access_token_secret ="JJm0IhrciAepUE6rzF4WMmdBOoqDTxvZOkA2ZBM5yxlax"
+consumer_key, consumer_secret, access_token, access_token_secret = get_personal_keys()
   
 # authentication of consumer key and secret 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
