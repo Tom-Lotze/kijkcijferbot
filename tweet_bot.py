@@ -3,7 +3,7 @@
 # @Author: Tom Lotze
 # @Date:   2020-02-18 18:49:26
 # @Last Modified by:   Tom Lotze
-# @Last Modified time: 2020-02-18 21:05:06
+# @Last Modified time: 2020-02-18 22:34:10
 
 import tweepy
 import requests
@@ -24,14 +24,12 @@ msg1 = f"De kijkcijfers voor {yesterday.strftime('%d %b %Y')}:\n\n"
 
 for i in range(k):
     if len(ranking[i][0])>12:
-        msg1 += f"{i+1}: {ranking[i][0]}\t{ranking[i][1]}\n"
+        msg1 += f"{i+1}: {ranking[i][0]}: {ranking[i][1]}\n"
     else:
-         msg1 += f"{i+1}: {ranking[i][0]}\t\t{ranking[i][1]}\n"
+         msg1 += f"{i+1}: {ranking[i][0]}: {ranking[i][1]}\n"
 
 # send tweet with kijkcijfers
-print(msg1)
-print(len(msg1))
-#send_tweet(msg1)
+send_tweet(msg1)
 
 ###### TALKSHOWTWEET
 # determine winner of talkshow war
@@ -55,8 +53,7 @@ else:
 msg2 += f"\n#Jinek had {kijkcijfer_jinek} kijkers en #Op1 {kijkcijfer_op1}"
 
 
-print(msg2)
-print(len(msg2))
+send_tweet(msg2)
 
 
 
