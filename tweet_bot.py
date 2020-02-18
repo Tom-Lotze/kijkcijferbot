@@ -3,7 +3,7 @@
 # @Author: Tom Lotze
 # @Date:   2020-02-18 18:49:26
 # @Last Modified by:   Tom Lotze
-# @Last Modified time: 2020-02-18 19:05:37
+# @Last Modified time: 2020-02-18 21:05:06
 
 import tweepy
 import requests
@@ -12,15 +12,52 @@ from datetime import datetime, timedelta, date
 from scrape_kijkcijfers import *
 from simple_tweet import *
 
-top = get_top()
 
+
+###### KIJKCIJFERS
+
+k = 5
+ranking = get_top()
 yesterday = (date.today() - timedelta(days=1))
 
-msg = f"De kijkcijfers voor {yesterday.strftime('%d %b %Y')}:\n\n"
+msg1 = f"De kijkcijfers voor {yesterday.strftime('%d %b %Y')}:\n\n"
 
-for i in range(5):
-    msg += f"{i+1}: {top[i][0]} met {top[i][1]} kijkers\n"
+for i in range(k):
+    if len(ranking[i][0])>12:
+        msg1 += f"{i+1}: {ranking[i][0]}\t{ranking[i][1]}\n"
+    else:
+         msg1 += f"{i+1}: {ranking[i][0]}\t\t{ranking[i][1]}\n"
+
+# send tweet with kijkcijfers
+print(msg1)
+print(len(msg1))
+#send_tweet(msg1)
+
+###### TALKSHOWTWEET
+# determine winner of talkshow war
+ranking_jinek = [pair[0] for pair in ranking].index('JINEK')
+ranking_op1 = [pair[0] for pair in ranking].index('OP1')
+
+jinek_wins = 0
+if ranking_jinek < ranking_op1:
+    jinek_wins = 1
+
+kijkcijfer_jinek = ranking[ranking_jinek][1]
+kijkcijfer_op1 = ranking[ranking_op1][1]
+
+msg2 = "Ondertussen in de #talkshowoorlog:"
+
+if jinek_wins:
+    msg2 += f"\n@Jinek_RTL werd gisteren beter bekeken dan @op1npo!"
+else:
+    msg2 += f"\n@op1npo werd gisteren beter bekeken dan @Jinek_RTL!"
+
+msg2 += f"\n#Jinek had {kijkcijfer_jinek} kijkers en #Op1 {kijkcijfer_op1}"
 
 
-send_tweet(msg)
+print(msg2)
+print(len(msg2))
+
+
+
 
