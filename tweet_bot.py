@@ -1,18 +1,9 @@
-# -*- coding: utf-8 -*-
-# python 3
-# @Author: Tom Lotze
-# @Date:   2020-02-18 18:49:26
-# @Last Modified by:   Tom Lotze
-# @Last Modified time: 2020-02-18 22:34:10
-
 import tweepy
 import requests
 from bs4 import BeautifulSoup as BS
 from datetime import datetime, timedelta, date
 from scrape_kijkcijfers import *
 from simple_tweet import *
-
-
 
 ###### KIJKCIJFERS
 
