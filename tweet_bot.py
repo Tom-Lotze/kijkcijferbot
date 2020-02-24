@@ -22,13 +22,17 @@ for i in range(k):
 # send tweet with kijkcijfers
 send_tweet(msg1)
 
-###### TALKSHOWTWEET
-# determine winner of talkshow war
-ranking_jinek = [pair[0] for pair in ranking].index('JINEK')
-ranking_op1 = [pair[0] for pair in ranking].index('OP1')
 
-# Talkshows not in the weekend
-if date.today().isoweekday() not in [1, 7]
+
+
+
+
+
+###### TALKSHOWTWEET (Talkshows not in the weekend)
+if date.today().isoweekday() not in [1, 7]:
+    # determine winner of talkshow war
+    ranking_jinek = [pair[0] for pair in ranking].index('JINEK')
+    ranking_op1 = [pair[0] for pair in ranking].index('OP1')
     jinek_wins = 0
     if ranking_jinek < ranking_op1:
         jinek_wins = 1
