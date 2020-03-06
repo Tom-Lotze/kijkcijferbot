@@ -2,8 +2,12 @@ import tweepy
 import requests
 from bs4 import BeautifulSoup as BS
 from datetime import datetime, timedelta, date
+import locale
 from scrape_kijkcijfers import *
 from simple_tweet import *
+
+# set locale settings
+locale.setlocale(locale.LC_ALL, locale="nl_NL")
 
 ###### KIJKCIJFERS
 
@@ -11,7 +15,7 @@ k = 5
 ranking = get_top()
 yesterday = (date.today() - timedelta(days=1))
 
-msg1 = f"De kijkcijfers voor {yesterday.strftime('%d %b %Y')}:\n\n"
+msg1 = f"De kijkcijfers voor {yesterday.strftime('%d %B %Y')}:\n\n"
 
 for i in range(k):
     if len(ranking[i][0])>12:
@@ -20,7 +24,8 @@ for i in range(k):
          msg1 += f"{i+1}: {ranking[i][0]}: {ranking[i][1]}\n"
 
 # send tweet with kijkcijfers
-send_tweet(msg1)
+print(msg1)
+#send_tweet(msg1)
 
 
 
@@ -49,7 +54,7 @@ if date.today().isoweekday() not in [1, 7]:
 
     msg2 += f"\n#Jinek had {kijkcijfer_jinek} kijkers en #Op1 {kijkcijfer_op1}"
 
-    send_tweet(msg2)
+    #send_tweet(msg2)
 
 
 
