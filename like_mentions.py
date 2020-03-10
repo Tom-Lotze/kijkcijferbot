@@ -17,7 +17,8 @@ tweets = api.mentions_timeline()
 for tweet in tweets:
     try:
         tweet.favorite()
-    except: pass
+    except:
+        pass
     try:
         tweet.user.follow()
     except:
