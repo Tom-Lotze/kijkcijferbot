@@ -24,7 +24,7 @@ for i in range(k):
          msg1 += f"{i+1}: {ranking[i][0]}: {ranking[i][1]}\n"
 
 # send tweet with kijkcijfers
-#print(msg1)
+# print(msg1)
 send_tweet(msg1)
 
 
