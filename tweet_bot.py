@@ -24,8 +24,8 @@ for i in range(k):
          msg1 += f"{i+1}: {ranking[i][0]}: {ranking[i][1]}\n"
 
 # send tweet with kijkcijfers
-print(msg1)
-#send_tweet(msg1)
+#print(msg1)
+send_tweet(msg1)
 
 
 
@@ -54,7 +54,7 @@ if date.today().isoweekday() not in [1, 7]:
 
     msg2 += f"\n#Jinek had {kijkcijfer_jinek} kijkers en #Op1 {kijkcijfer_op1}"
 
-    #send_tweet(msg2)
+    send_tweet(msg2)
 
 
 
