@@ -23,3 +23,12 @@ for tweet in tweets:
         tweet.user.follow()
     except:
         pass
+
+
+# follow people back
+
+for follower in tweepy.Cursor(api.followers).items():
+    try:
+        follower.follow()
+    except:
+        pass
