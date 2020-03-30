@@ -2,10 +2,10 @@
 # @Author: Tom Lotze
 # @Date:   2020-03-25 11:22
 # @Last Modified by:   Tom Lotze
-# @Last Modified time: 2020-03-25 15:51
+# @Last Modified time: 2020-03-30 20:32
 
 
-# Moet maandag avond gerund wordens
+# Moet maandag avond geru nd wordens
 
 import tweepy
 import requests
@@ -47,14 +47,15 @@ def tweet(last_week, previous_week):
     if delta_kijktijd >= 0:
         msg = f"In week {week} was de gemiddelde kijktijd per dag {kijktijd_curr} min. Dit is een toename van {delta_kijktijd} min. (+{kijktijd_percentage}%) t.o.v. vorige week.\n"
     else:
-        msg = f"In week {week} was de gemiddelde kijktijd per dag {kijktijd_curr} min. Dit is een afname van {delta_kijktijd} min. t.o.v. vorige week (-{kijktijd_percentage}%).\n"
+        msg = f"In week {week} was de gemiddelde kijktijd per dag {kijktijd_curr} min. Dit is een afname van {-delta_kijktijd} min. t.o.v. vorige week ({kijktijd_percentage}%).\n"
 
     if delta_schermtijd >= 0:
         msg += f"Verder is de schermtijd met {schermtijd_percentage}% ({delta_schermtijd} min.) toegenomen tot gemiddeld {schermtijd_curr} minuten per dag t.o.v. vorige week."
     else:
-        msg+= f"Verder is de schermtijd met {-schermtijd_percentage}% ({delta_schermtijd} min.) afgenomen t.o.v. vorige week, tot gemiddeld {schermtijd_curr} minuten per dag."
+        msg+= f"Verder is de schermtijd met {-delta_schermtijd} min. afgenomen ({schermtijd_percentage}%) t.o.v. vorige week, tot gemiddeld {schermtijd_curr} minuten per dag."
 
-    send_tweet(msg)
+    #send_tweet(msg)
+    breakpoint()
 
 
 
