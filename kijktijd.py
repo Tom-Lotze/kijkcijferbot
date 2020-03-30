@@ -2,7 +2,7 @@
 # @Author: Tom Lotze
 # @Date:   2020-03-25 11:22
 # @Last Modified by:   Tom Lotze
-# @Last Modified time: 2020-03-30 20:32
+# @Last Modified time: 2020-03-30 20:35
 
 
 # Moet maandag avond geru nd wordens
@@ -54,8 +54,8 @@ def tweet(last_week, previous_week):
     else:
         msg+= f"Verder is de schermtijd met {-delta_schermtijd} min. afgenomen ({schermtijd_percentage}%) t.o.v. vorige week, tot gemiddeld {schermtijd_curr} minuten per dag."
 
-    #send_tweet(msg)
-    breakpoint()
+    send_tweet(msg)
+
 
 
 
