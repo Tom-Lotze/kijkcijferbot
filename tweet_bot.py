@@ -5,6 +5,7 @@ from datetime import datetime, timedelta, date
 import locale
 import os
 import json
+import time
 
 from scrape_kijkcijfers import *
 from simple_tweet import *
@@ -27,6 +28,14 @@ def save_json(ranking):
 k = 5
 ranking = get_top()
 
+if not ranking:
+    time.sleep(3600)
+    ranking = get_top()
+
+if not ranking:
+    exit()
+
+
 # save as json
 save_json(ranking)
 
@@ -35,10 +44,7 @@ yesterday = (date.today() - timedelta(days=1))
 msg1 = f"De kijkcijfers voor {yesterday.strftime('%d %B %Y')}:\n\n"
 
 for i in range(k):
-    if len(ranking[i][0])>12:
-        msg1 += f"{i+1}: {ranking[i][0]}: {ranking[i][1]}\n"
-    else:
-         msg1 += f"{i+1}: {ranking[i][0]}: {ranking[i][1]}\n"
+    msg1 += f"{i+1}: {ranking[i][0]}: {ranking[i][1]}\n"
 
 # send tweet with kijkcijfers
 send_tweet(msg1)
