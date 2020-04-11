@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as BS
 
 def get_top(url="https://kijkonderzoek.nl/"):
 
-    # retrieve the website 
+    # retrieve the website
     response = requests.get(url)
     html = BS(response.text, "html.parser")
 
@@ -14,7 +14,7 @@ def get_top(url="https://kijkonderzoek.nl/"):
 
     # construct a ranking
     ranking = [(title.div.string, number.string) for title, number in zip(titles, viewings)]
-    
+
     return ranking
 
 
