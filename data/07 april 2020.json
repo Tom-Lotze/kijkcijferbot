@@ -1,104 +1,102 @@
 {
- "07 april 2020": {
-  "1": {
-   "name": "JOURNAAL 20 UUR",
-   "kijkers": "2.688.000"
-  },
-  "2": {
-   "name": "SPOORLOOS",
-   "kijkers": "1.826.000"
-  },
-  "3": {
-   "name": "JOURNAAL 18 UUR",
-   "kijkers": "1.773.000"
-  },
-  "4": {
-   "name": "EENVANDAAG",
-   "kijkers": "1.719.000"
-  },
-  "5": {
-   "name": "RADAR",
-   "kijkers": "1.558.000"
-  },
-  "6": {
-   "name": "HALF ACHT NIEUWS",
-   "kijkers": "1.440.000"
-  },
-  "7": {
-   "name": "OP1",
-   "kijkers": "1.424.000"
-  },
-  "8": {
-   "name": "CHATEAU MEILAND",
-   "kijkers": "1.265.000"
-  },
-  "9": {
-   "name": "KOPEN ZONDER KIJKEN",
-   "kijkers": "1.074.000"
-  },
-  "10": {
-   "name": "JOURNAAL LAAT",
-   "kijkers": "1.062.000"
-  },
-  "11": {
-   "name": "M",
-   "kijkers": "1.038.000"
-  },
-  "12": {
-   "name": "JINEK",
-   "kijkers": "878.000"
-  },
-  "13": {
-   "name": "GOEDE TIJDEN SLECHTE TIJDEN",
-   "kijkers": "852.000"
-  },
-  "14": {
-   "name": "TIJD VOOR MAX",
-   "kijkers": "830.000"
-  },
-  "15": {
-   "name": "RTL BOULEVARD",
-   "kijkers": "820.000"
-  },
-  "16": {
-   "name": "LINGO",
-   "kijkers": "731.000"
-  },
-  "17": {
-   "name": "EDITIE NL",
-   "kijkers": "722.000"
-  },
-  "18": {
-   "name": "VERONICA INSIDE",
-   "kijkers": "644.000"
-  },
-  "19": {
-   "name": "MET HET MES OP TAFEL",
-   "kijkers": "606.000"
-  },
-  "20": {
-   "name": "NIEUWSUUR",
-   "kijkers": "590.000"
-  },
-  "21": {
-   "name": "BINNENSTEBUITEN",
-   "kijkers": "586.000"
-  },
-  "22": {
-   "name": "BRITTS GOUWE OUWEN",
-   "kijkers": "558.000"
-  },
-  "23": {
-   "name": "ZES UUR NIEUWS",
-   "kijkers": "552.000"
-  },
-  "24": {
-   "name": "FRONTBERICHTEN",
-   "kijkers": "532.000"
-  },
-  "25": {
-   "name": "JEUGDJOURNAAL AVOND",
-   "kijkers": "470.000"
-  }
+ "1": {
+  "name": "JOURNAAL EXTRA",
+  "kijkers": "3.378.000"
+ },
+ "2": {
+  "name": "JOURNAAL 20 UUR",
+  "kijkers": "2.586.000"
+ },
+ "3": {
+  "name": "JOURNAAL 18 UUR",
+  "kijkers": "1.608.000"
+ },
+ "4": {
+  "name": "EENVANDAAG",
+  "kijkers": "1.592.000"
+ },
+ "5": {
+  "name": "M",
+  "kijkers": "1.564.000"
+ },
+ "6": {
+  "name": "OPSPORING VERZOCHT",
+  "kijkers": "1.496.000"
+ },
+ "7": {
+  "name": "HALF ACHT NIEUWS",
+  "kijkers": "1.400.000"
+ },
+ "8": {
+  "name": "OPGELICHT",
+  "kijkers": "1.319.000"
+ },
+ "9": {
+  "name": "OP1",
+  "kijkers": "1.297.000"
+ },
+ "10": {
+  "name": "NIEUWS EXTRA",
+  "kijkers": "1.102.000"
+ },
+ "11": {
+  "name": "JOURNAAL LAAT",
+  "kijkers": "1.010.000"
+ },
+ "12": {
+  "name": "JINEK",
+  "kijkers": "972.000"
+ },
+ "13": {
+  "name": "GOEDE TIJDEN SLECHTE TIJDEN",
+  "kijkers": "899.000"
+ },
+ "14": {
+  "name": "RTL BOULEVARD",
+  "kijkers": "889.000"
+ },
+ "15": {
+  "name": "MET HET MES OP TAFEL",
+  "kijkers": "796.000"
+ },
+ "16": {
+  "name": "TOPDOKTERS",
+  "kijkers": "775.000"
+ },
+ "17": {
+  "name": "DREAM SCHOOL",
+  "kijkers": "749.000"
+ },
+ "18": {
+  "name": "TIJD VOOR MAX",
+  "kijkers": "745.000"
+ },
+ "19": {
+  "name": "CASH OR TRASH",
+  "kijkers": "737.000"
+ },
+ "20": {
+  "name": "EDITIE NL",
+  "kijkers": "721.000"
+ },
+ "21": {
+  "name": "LINGO",
+  "kijkers": "606.000"
+ },
+ "22": {
+  "name": "PALEIS VOOR EEN PRIKKIE",
+  "kijkers": "603.000"
+ },
+ "23": {
+  "name": "FRONTBERICHTEN",
+  "kijkers": "577.000"
+ },
+ "24": {
+  "name": "ZES UUR NIEUWS",
+  "kijkers": "561.000"
+ },
+ "25": {
+  "name": "NIEUWSUUR",
+  "kijkers": "548.000"
  }
 }

@@ -1,104 +1,102 @@
 {
- "09 april 2020": {
-  "1": {
-   "name": "JOURNAAL 20 UUR",
-   "kijkers": "2.541.000"
-  },
-  "2": {
-   "name": "TUSSEN KUNST EN KITSCH",
-   "kijkers": "1.999.000"
-  },
-  "3": {
-   "name": "RIJDENDE RECHTER",
-   "kijkers": "1.716.000"
-  },
-  "4": {
-   "name": "JOURNAAL 18 UUR",
-   "kijkers": "1.471.000"
-  },
-  "5": {
-   "name": "EENVANDAAG",
-   "kijkers": "1.443.000"
-  },
-  "6": {
-   "name": "HALF ACHT NIEUWS",
-   "kijkers": "1.242.000"
-  },
-  "7": {
-   "name": "OP1",
-   "kijkers": "1.187.000"
-  },
-  "8": {
-   "name": "M",
-   "kijkers": "1.029.000"
-  },
-  "9": {
-   "name": "STEENRIJK STRAATARM",
-   "kijkers": "979.000"
-  },
-  "10": {
-   "name": "ZWARE JAS VAN BEATRIX",
-   "kijkers": "883.000"
-  },
-  "11": {
-   "name": "GOEDE TIJDEN SLECHTE TIJDEN",
-   "kijkers": "861.000"
-  },
-  "12": {
-   "name": "JOURNAAL LAAT",
-   "kijkers": "822.000"
-  },
-  "13": {
-   "name": "RTL BOULEVARD",
-   "kijkers": "794.000"
-  },
-  "14": {
-   "name": "JINEK",
-   "kijkers": "721.000"
-  },
-  "15": {
-   "name": "MET HET MES OP TAFEL",
-   "kijkers": "717.000"
-  },
-  "16": {
-   "name": "LINGO",
-   "kijkers": "696.000"
-  },
-  "17": {
-   "name": "HART IN AKTIE",
-   "kijkers": "694.000"
-  },
-  "18": {
-   "name": "EDITIE NL",
-   "kijkers": "639.000"
-  },
-  "19": {
-   "name": "TIJD VOOR MAX",
-   "kijkers": "634.000"
-  },
-  "20": {
-   "name": "HART VAN NEDERLAND",
-   "kijkers": "599.000"
-  },
-  "21": {
-   "name": "BINNENSTEBUITEN",
-   "kijkers": "572.000"
-  },
-  "22": {
-   "name": "GOED VOOR ELKAAR",
-   "kijkers": "527.000"
-  },
-  "23": {
-   "name": "NIEUWSUUR",
-   "kijkers": "517.000"
-  },
-  "24": {
-   "name": "FRONTBERICHTEN",
-   "kijkers": "497.000"
-  },
-  "25": {
-   "name": "ZES UUR NIEUWS",
-   "kijkers": "470.000"
-  }
+ "1": {
+  "name": "JOURNAAL 20 UUR",
+  "kijkers": "2.810.000"
+ },
+ "2": {
+  "name": "PASSION GEEF MIJ NU JE ANGST",
+  "kijkers": "2.756.000"
+ },
+ "3": {
+  "name": "HALF ACHT NIEUWS",
+  "kijkers": "1.455.000"
+ },
+ "4": {
+  "name": "JOURNAAL 18 UUR",
+  "kijkers": "1.360.000"
+ },
+ "5": {
+  "name": "EENVANDAAG",
+  "kijkers": "1.315.000"
+ },
+ "6": {
+  "name": "OP1",
+  "kijkers": "1.304.000"
+ },
+ "7": {
+  "name": "GESPREK MET DE MINISTER PRESIDENT",
+  "kijkers": "1.295.000"
+ },
+ "8": {
+  "name": "JOURNAAL LAAT",
+  "kijkers": "1.048.000"
+ },
+ "9": {
+  "name": "M",
+  "kijkers": "1.015.000"
+ },
+ "10": {
+  "name": "RTL BOULEVARD",
+  "kijkers": "908.000"
+ },
+ "11": {
+  "name": "GOEDE TIJDEN SLECHTE TIJDEN",
+  "kijkers": "875.000"
+ },
+ "12": {
+  "name": "TV KANTINE",
+  "kijkers": "816.000"
+ },
+ "13": {
+  "name": "EDITIE NL",
+  "kijkers": "805.000"
+ },
+ "14": {
+  "name": "MET HET MES OP TAFEL",
+  "kijkers": "706.000"
+ },
+ "15": {
+  "name": "JINEK",
+  "kijkers": "692.000"
+ },
+ "16": {
+  "name": "MR FRANK VISSER RIJDT VISITE",
+  "kijkers": "646.000"
+ },
+ "17": {
+  "name": "HART VAN NEDERLAND",
+  "kijkers": "618.000"
+ },
+ "18": {
+  "name": "FRONTBERICHTEN",
+  "kijkers": "586.000"
+ },
+ "19": {
+  "name": "TIJD VOOR MAX",
+  "kijkers": "582.000"
+ },
+ "20": {
+  "name": "ZES UUR NIEUWS",
+  "kijkers": "576.000"
+ },
+ "21": {
+  "name": "GESTALKT",
+  "kijkers": "530.000"
+ },
+ "22": {
+  "name": "KVW",
+  "kijkers": "519.000"
+ },
+ "23": {
+  "name": "NIEUWSUUR",
+  "kijkers": "506.000"
+ },
+ "24": {
+  "name": "LINGO",
+  "kijkers": "489.000"
+ },
+ "25": {
+  "name": "LATE NIEUWS",
+  "kijkers": "487.000"
  }
 }

@@ -1,104 +1,102 @@
 {
- "02 april 2020": {
-  "1": {
-   "name": "JOURNAAL 20 UUR",
-   "kijkers": "2.844.000"
-  },
-  "2": {
-   "name": "TUSSEN KUNST EN KITSCH",
-   "kijkers": "2.057.000"
-  },
-  "3": {
-   "name": "JOURNAAL 18 UUR",
-   "kijkers": "1.579.000"
-  },
-  "4": {
-   "name": "EENVANDAAG",
-   "kijkers": "1.501.000"
-  },
-  "5": {
-   "name": "HALF ACHT NIEUWS",
-   "kijkers": "1.489.000"
-  },
-  "6": {
-   "name": "LEVENSLUCHT EEN WEEK OP DE IC TIJDENS CORONA",
-   "kijkers": "1.384.000"
-  },
-  "7": {
-   "name": "OP1",
-   "kijkers": "1.194.000"
-  },
-  "8": {
-   "name": "M",
-   "kijkers": "1.130.000"
-  },
-  "9": {
-   "name": "JOURNAAL LAAT",
-   "kijkers": "1.045.000"
-  },
-  "10": {
-   "name": "RTL BOULEVARD",
-   "kijkers": "947.000"
-  },
-  "11": {
-   "name": "STEENRIJK STRAATARM",
-   "kijkers": "898.000"
-  },
-  "12": {
-   "name": "GOEDE TIJDEN SLECHTE TIJDEN",
-   "kijkers": "861.000"
-  },
-  "13": {
-   "name": "JINEK",
-   "kijkers": "838.000"
-  },
-  "14": {
-   "name": "EDITIE NL",
-   "kijkers": "783.000"
-  },
-  "15": {
-   "name": "TIJD VOOR MAX",
-   "kijkers": "751.000"
-  },
-  "16": {
-   "name": "ZWARE JAS VAN BEATRIX",
-   "kijkers": "709.000"
-  },
-  "17": {
-   "name": "NIEUWSUUR",
-   "kijkers": "624.000"
-  },
-  "18": {
-   "name": "ZES UUR NIEUWS",
-   "kijkers": "619.000"
-  },
-  "19": {
-   "name": "JOURNAAL 17 UUR",
-   "kijkers": "612.000"
-  },
-  "20": {
-   "name": "FRONTBERICHTEN",
-   "kijkers": "592.000"
-  },
-  "21": {
-   "name": "PER SECONDE WIJZER",
-   "kijkers": "584.000"
-  },
-  "22": {
-   "name": "LINGO",
-   "kijkers": "555.000"
-  },
-  "23": {
-   "name": "HART VAN NEDERLAND",
-   "kijkers": "542.000"
-  },
-  "24": {
-   "name": "GOED VOOR ELKAAR",
-   "kijkers": "529.000"
-  },
-  "25": {
-   "name": "KINGSMAN THE GOLDEN CIRCLE",
-   "kijkers": "510.000"
-  }
+ "1": {
+  "name": "JOURNAAL 20 UUR",
+  "kijkers": "2.763.000"
+ },
+ "2": {
+  "name": "JOURNAAL 18 UUR",
+  "kijkers": "1.884.000"
+ },
+ "3": {
+  "name": "EENVANDAAG",
+  "kijkers": "1.847.000"
+ },
+ "4": {
+  "name": "HALF ACHT NIEUWS",
+  "kijkers": "1.692.000"
+ },
+ "5": {
+  "name": "M",
+  "kijkers": "1.168.000"
+ },
+ "6": {
+  "name": "OOGAPPELS",
+  "kijkers": "1.093.000"
+ },
+ "7": {
+  "name": "OP1",
+  "kijkers": "1.045.000"
+ },
+ "8": {
+  "name": "FLOORTJE BLIJFT HIER",
+  "kijkers": "989.000"
+ },
+ "9": {
+  "name": "RTL BOULEVARD",
+  "kijkers": "980.000"
+ },
+ "10": {
+  "name": "TV KANTINE",
+  "kijkers": "962.000"
+ },
+ "11": {
+  "name": "JINEK",
+  "kijkers": "953.000"
+ },
+ "12": {
+  "name": "JOURNAAL LAAT",
+  "kijkers": "941.000"
+ },
+ "13": {
+  "name": "GOEDE TIJDEN SLECHTE TIJDEN",
+  "kijkers": "906.000"
+ },
+ "14": {
+  "name": "TIJD VOOR MAX",
+  "kijkers": "900.000"
+ },
+ "15": {
+  "name": "KVW",
+  "kijkers": "811.000"
+ },
+ "16": {
+  "name": "MR FRANK VISSER RIJDT VISITE",
+  "kijkers": "751.000"
+ },
+ "17": {
+  "name": "EDITIE NL",
+  "kijkers": "739.000"
+ },
+ "18": {
+  "name": "BINNENSTEBUITEN",
+  "kijkers": "734.000"
+ },
+ "19": {
+  "name": "HART VAN NEDERLAND",
+  "kijkers": "687.000"
+ },
+ "20": {
+  "name": "NIEUWSUUR",
+  "kijkers": "674.000"
+ },
+ "21": {
+  "name": "ZES UUR NIEUWS",
+  "kijkers": "613.000"
+ },
+ "22": {
+  "name": "ZEMBLA",
+  "kijkers": "612.000"
+ },
+ "23": {
+  "name": "GESTALKT",
+  "kijkers": "610.000"
+ },
+ "24": {
+  "name": "LATE NIEUWS",
+  "kijkers": "579.000"
+ },
+ "25": {
+  "name": "FRONTBERICHTEN",
+  "kijkers": "575.000"
  }
 }
