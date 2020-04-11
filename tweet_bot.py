@@ -16,10 +16,10 @@ os.makedirs("data", exist_ok=True)
 
 
 def save_json(ranking):
-    today = date.today().strftime('%d %B %Y')
-    dic = {today : {i: {"name": name, "kijkers": kijkers} for i, (name, kijkers) in enumerate(ranking, start=1)}}
+    yesterday = (date.today() - timedelta(days=1)).strftime('%d %B %Y')
+    dic = {i: {"name": name, "kijkers": kijkers} for i, (name, kijkers) in enumerate(ranking, start=1)}
 
-    with open(f"./data/{today}.json", "w") as writer:
+    with open(f"./data/{yesterday}.json", "w") as writer:
         json.dump(dic, writer, indent=1)
 
 
@@ -38,6 +38,7 @@ if not ranking:
 
 # save as json
 save_json(ranking)
+
 
 yesterday = (date.today() - timedelta(days=1))
 
