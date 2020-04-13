@@ -2,7 +2,7 @@
 # @Author: Tom Lotze
 # @Date:   2020-04-10 17:13
 # @Last Modified by:   Tom Lotze
-# @Last Modified time: 2020-04-11 15:27
+# @Last Modified time: 2020-04-13 11:00
 
 import tweepy
 from datetime import datetime, timedelta, date
@@ -75,8 +75,8 @@ def graph_jinek_op1(days, jinek, op1):
     plt.grid()
     plt.title(f"Kijkcijfers in de #talkshowoorlog in week {week_nr}")
 
-    plt.scatter(days, jinek, label="Jinek", marker="o", color="blue", s=40)
-    plt.scatter(days, op1, label="Op1", marker="x", color="red", s=40)
+    plt.plot(days, jinek, label="Jinek", marker="o", color="blue", s=40)
+    plt.plot(days, op1, label="Op1", marker="x", color="red", s=40)
 
     plt.xlabel("Datum")
     plt.ylabel("Kijkcijfers x 1000")
