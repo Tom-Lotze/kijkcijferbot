@@ -1,102 +1,104 @@
 {
- "1": {
-  "name": "JOURNAAL 20 UUR",
-  "kijkers": "2.347.000"
- },
- "2": {
-  "name": "YOUP MET DE KENNIS VAN NU",
-  "kijkers": "1.669.000"
- },
- "3": {
-  "name": "VOICE KIDS",
-  "kijkers": "1.505.000"
- },
- "4": {
-  "name": "OP1",
-  "kijkers": "1.335.000"
- },
- "5": {
-  "name": "JOURNAAL 18 UUR",
-  "kijkers": "1.320.000"
- },
- "6": {
-  "name": "EENVANDAAG",
-  "kijkers": "1.242.000"
- },
- "7": {
-  "name": "HALF ACHT NIEUWS",
-  "kijkers": "1.163.000"
- },
- "8": {
-  "name": "JINEK",
-  "kijkers": "1.021.000"
- },
- "9": {
-  "name": "M",
-  "kijkers": "924.000"
- },
- "10": {
-  "name": "JOURNAAL LAAT",
-  "kijkers": "909.000"
- },
- "11": {
-  "name": "RTL BOULEVARD",
-  "kijkers": "788.000"
- },
- "12": {
-  "name": "EDITIE NL",
-  "kijkers": "771.000"
- },
- "13": {
-  "name": "VERBORGEN VERLEDEN",
-  "kijkers": "675.000"
- },
- "14": {
-  "name": "ZES UUR NIEUWS",
-  "kijkers": "647.000"
- },
- "15": {
-  "name": "WIE HET LAATST LACHT",
-  "kijkers": "645.000"
- },
- "16": {
-  "name": "BINNENSTEBUITEN",
-  "kijkers": "599.000"
- },
- "17": {
-  "name": "VERONICA INSIDE",
-  "kijkers": "567.000"
- },
- "18": {
-  "name": "NIEUWSUUR",
-  "kijkers": "566.000"
- },
- "19": {
-  "name": "FRONTBERICHTEN",
-  "kijkers": "561.000"
- },
- "20": {
-  "name": "BEAU BLIJFT BINNEN",
-  "kijkers": "541.000"
- },
- "21": {
-  "name": "TIJD VOOR MAX",
-  "kijkers": "538.000"
- },
- "22": {
-  "name": "HART VAN NEDERLAND",
-  "kijkers": "513.000"
- },
- "23": {
-  "name": "FIRST DATES",
-  "kijkers": "478.000"
- },
- "24": {
-  "name": "LINGO",
-  "kijkers": "453.000"
- },
- "25": {
-  "name": "SHOWNIEUWS",
-  "kijkers": "410.000"
+ "11 april 2020": {
+  "1": {
+   "name": "JOURNAAL 20 UUR",
+   "kijkers": "2.347.000"
+  },
+  "2": {
+   "name": "YOUP MET DE KENNIS VAN NU",
+   "kijkers": "1.669.000"
+  },
+  "3": {
+   "name": "VOICE KIDS",
+   "kijkers": "1.505.000"
+  },
+  "4": {
+   "name": "OP1",
+   "kijkers": "1.335.000"
+  },
+  "5": {
+   "name": "JOURNAAL 18 UUR",
+   "kijkers": "1.320.000"
+  },
+  "6": {
+   "name": "EENVANDAAG",
+   "kijkers": "1.242.000"
+  },
+  "7": {
+   "name": "HALF ACHT NIEUWS",
+   "kijkers": "1.163.000"
+  },
+  "8": {
+   "name": "JINEK",
+   "kijkers": "1.021.000"
+  },
+  "9": {
+   "name": "M",
+   "kijkers": "924.000"
+  },
+  "10": {
+   "name": "JOURNAAL LAAT",
+   "kijkers": "909.000"
+  },
+  "11": {
+   "name": "RTL BOULEVARD",
+   "kijkers": "788.000"
+  },
+  "12": {
+   "name": "EDITIE NL",
+   "kijkers": "771.000"
+  },
+  "13": {
+   "name": "VERBORGEN VERLEDEN",
+   "kijkers": "675.000"
+  },
+  "14": {
+   "name": "ZES UUR NIEUWS",
+   "kijkers": "647.000"
+  },
+  "15": {
+   "name": "WIE HET LAATST LACHT",
+   "kijkers": "645.000"
+  },
+  "16": {
+   "name": "BINNENSTEBUITEN",
+   "kijkers": "599.000"
+  },
+  "17": {
+   "name": "VERONICA INSIDE",
+   "kijkers": "567.000"
+  },
+  "18": {
+   "name": "NIEUWSUUR",
+   "kijkers": "566.000"
+  },
+  "19": {
+   "name": "FRONTBERICHTEN",
+   "kijkers": "561.000"
+  },
+  "20": {
+   "name": "BEAU BLIJFT BINNEN",
+   "kijkers": "541.000"
+  },
+  "21": {
+   "name": "TIJD VOOR MAX",
+   "kijkers": "538.000"
+  },
+  "22": {
+   "name": "HART VAN NEDERLAND",
+   "kijkers": "513.000"
+  },
+  "23": {
+   "name": "FIRST DATES",
+   "kijkers": "478.000"
+  },
+  "24": {
+   "name": "LINGO",
+   "kijkers": "453.000"
+  },
+  "25": {
+   "name": "SHOWNIEUWS",
+   "kijkers": "410.000"
+  }
  }
 }
