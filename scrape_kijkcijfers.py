@@ -19,4 +19,3 @@ def get_top(url="https://kijkonderzoek.nl/"):
     
     return ranking
 
-print(get_top())
