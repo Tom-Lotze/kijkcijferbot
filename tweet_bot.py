@@ -39,11 +39,16 @@ if not ranking:
 # save as json
 save_json(ranking)
 
-account_dict = {"JOURNAAL 20 UUR" : "JOURNAAL 20 UUR @NOS",
-                "HALF ACHT NIEUWS": "HALF 8 NIEUWS @RTLnieuws",
-                "JOURNAAL 18 UUR": "JOURNAAL 18 uur @NOS",
-                "CHATEAU MEILAND" : "#chateaumeiland" ,
-                "KOPEN ZONDER KIJKEN": "#kopenzonderkijken" }
+account_dict = {"JOURNAAL 20 UUR" : "@NOS JOURNAAL 20 UUR",
+                "HALF ACHT NIEUWS": "@RTLnieuws HALF 8 NIEUWS ",
+                "JOURNAAL 18 UUR": "@NOS JOURNAAL 18 uur",
+                "CHATEAU MEILAND" : "@MeilandMartien" ,
+                "KOPEN ZONDER KIJKEN": "#kopenzonderkijken",
+                "KASSA" : "@kassa_bnnvara" ,
+                "WIE IS DE MOL" : "@widm",
+                "BESTE ZANGERS" : "@BesteZangers",
+                "EENVANDAAG" : "@EenVandaag",
+                "ZONDAG MET LUBACH": "@zondagmetlubach"}
 
 
 yesterday = (date.today() - timedelta(days=1))
