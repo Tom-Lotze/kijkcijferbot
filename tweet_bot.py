@@ -39,13 +39,31 @@ if not ranking:
 # save as json
 save_json(ranking)
 
+account_dict = {"JOURNAAL 20 UUR" : "@NOS JOURNAAL 20 UUR",
+                "HALF ACHT NIEUWS": "@RTLnieuws HALF 8 NIEUWS ",
+                "JOURNAAL 18 UUR": "@NOS JOURNAAL 18 uur",
+                "CHATEAU MEILAND" : "@MeilandMartien" ,
+                "KOPEN ZONDER KIJKEN": "#kopenzonderkijken",
+                "KASSA" : "@kassa_bnnvara" ,
+                "WIE IS DE MOL" : "@widm",
+                "BESTE ZANGERS" : "@BesteZangers",
+                "EENVANDAAG" : "@EenVandaag",
+                "ZONDAG MET LUBACH": "@zondagmetlubach"}
+
 
 yesterday = (date.today() - timedelta(days=1))
 
 msg1 = f"De kijkcijfers voor {yesterday.strftime('%d %B %Y')}:\n\n"
 
 for i in range(k):
-    msg1 += f"{i+1}: {ranking[i][0]}: {ranking[i][1]}\n"
+    try:
+        programme = account_dict[ranking[i][0]]
+    except:
+        programme = ranking[i][0]
+        print(programme)
+    msg1 += f"{i+1}: {programme}: {ranking[i][1]}\n"
+
+breakpoint()
 
 # send tweet with kijkcijfers
 send_tweet(msg1)
