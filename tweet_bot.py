@@ -11,7 +11,7 @@ from scrape_kijkcijfers import *
 from simple_tweet import *
 
 # set locale settings
-locale.setlocale(locale.LC_ALL, locale="nl_NL")
+locale.setlocale(locale.LC_ALL, locale="nl_NL.UTF-8")
 os.makedirs("data", exist_ok=True)
 
 
