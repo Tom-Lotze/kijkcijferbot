@@ -63,8 +63,6 @@ for i in range(k):
         print(programme)
     msg1 += f"{i+1}: {programme}: {ranking[i][1]}\n"
 
-breakpoint()
-
 # send tweet with kijkcijfers
 send_tweet(msg1)
 
