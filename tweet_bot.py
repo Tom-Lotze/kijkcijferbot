@@ -88,7 +88,7 @@ if date.today().isoweekday() not in [1, 7]:
 
     if jinek_wins:
         # msg2 += f"\n@Jinek_RTL werd gisteren beter bekeken dan @op1npo!"
-        msg2 += f"\n@Beau_RTL werd gisteren beter bekeken dan @op1npo!"
+        msg2 += f"\n@BeauRTL werd gisteren beter bekeken dan @op1npo!"
     else:
         # msg2 += f"\n@op1npo werd gisteren beter bekeken dan @Jinek_RTL!"
         msg2 += f"\n@op1npo werd gisteren beter bekeken dan @Beau_RTL!"
