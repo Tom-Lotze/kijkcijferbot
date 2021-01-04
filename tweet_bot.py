@@ -70,9 +70,9 @@ send_tweet(msg1)
 ###### TALKSHOWTWEET (Talkshows not in the weekend)
 if date.today().isoweekday() not in [1, 7]:
     # determine winner of talkshow war
-    # ranking_jinek = [pair[0] for pair in ranking].index('JINEK')
+    ranking_jinek = [pair[0] for pair in ranking].index('JINEK')
     # if beau
-    ranking_jinek = [pair[0] for pair in ranking].index('BEAU')
+    # ranking_jinek = [pair[0] for pair in ranking].index('BEAU')
 
     ranking_op1 = [pair[0] for pair in ranking].index('OP1')
 
@@ -87,14 +87,14 @@ if date.today().isoweekday() not in [1, 7]:
     msg2 = "Ondertussen in de #talkshowoorlog:"
 
     if jinek_wins:
-        # msg2 += f"\n@Jinek_RTL werd gisteren beter bekeken dan @op1npo!"
-        msg2 += f"\n@BeauRTL werd gisteren beter bekeken dan @op1npo!"
+        msg2 += f"\n@Jinek_RTL werd gisteren beter bekeken dan @op1npo!"
+        # msg2 += f"\n@BeauRTL werd gisteren beter bekeken dan @op1npo!"
     else:
-        # msg2 += f"\n@op1npo werd gisteren beter bekeken dan @Jinek_RTL!"
-        msg2 += f"\n@op1npo werd gisteren beter bekeken dan @Beau_RTL!"
+        msg2 += f"\n@op1npo werd gisteren beter bekeken dan @Jinek_RTL!"
+        # msg2 += f"\n@op1npo werd gisteren beter bekeken dan @BeauRTL!"
 
-    # msg2 += f"\n#Jinek had {kijkcijfer_jinek} kijkers en #Op1 {kijkcijfer_op1}"
-    msg2 += f"\n#Beau had {kijkcijfer_jinek} kijkers en #Op1 {kijkcijfer_op1}"
+    msg2 += f"\n#Jinek had {kijkcijfer_jinek} kijkers en #Op1 {kijkcijfer_op1}"
+    # msg2 += f"\n#Beau had {kijkcijfer_jinek} kijkers en #Op1 {kijkcijfer_op1}"
 
     send_tweet(msg2)
 
